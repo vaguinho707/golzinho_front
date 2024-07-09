@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Projeto</title>
+</head>
+
+
+<body>
+     <!-- Cabeçalho de informações do sistema -->
+    <header>
+        <div class="title">
+            <h1>Golzinho</h1>
+        </div>
+        <div class="banner">
+            <img src="golzinho_image.jpg" alt="y">
+        </div>
+        <!-- <div class="banner">
+            <img src="https://postimg.cc/zbRhyfwh"
+                alt="y">
+        </div> -->
+    </header>
+
+     <!-- Opções para adicionar um novo item -->
+    <div class="row">
+        <div class="column">
+            <div class="newGame">
+                <input type="text" id="newGameLabel" placeholder="Adicionar nova pelada:">
+                <input type="text" id="newCost" placeholder="Valor:">
+                <input type="text" id="newLocation" placeholder="Localização:">
+                <input type="datetime-local" id="newGameDate" placeholder="Data:">
+                <input type="text" id="newDuration" placeholder="Duração em minutos:">
+                <button onclick="newGame()" class="addBtn">Adicionar</button>
+            </div>
+        </div>
+        <!-- <div class="column">
+            <div class="newPlayer">
+                <input type="text" id="newPlayerName" placeholder="Adicionar peladeiro:">
+                <input type="text" id="newPlayerEmail" placeholder="E-mail:">
+                <button onclick="newPlayer()" class="addBtn">Adicionar</button>
+            </div>
+        </div> -->
+    </div>
+
+    <!-- Tabela com items existentes -->
+        <div class="row">
+            <div class="column">
+                <table id="gamesTable" >
+                    <tr>
+                        <th style="width:25%">Id</th>
+                        <th style="width:25%">Pelada</th>
+                        <th style="width:10%">Valor</th>
+                        <th style="width:20%">Localização</th>
+                        <th style="width:20%">Data</th>
+                        <th style="width:10%">Duração</th>
+                        <th style="width:5%"><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></th>
+                    </tr>
+                </table>
+            </div>
+            <!-- <div class="column">
+                <table id="playersTable">
+                    <tr>
+                        <th style="width:35%">Nome do Jogador</th>
+                        <th style="width:40%">E-mail</th>
+                    </tr>
+                </table>
+            </div> -->
+        </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+
+
