@@ -1,9 +1,8 @@
 # Meu Front
 
-Este pequeno projeto faz parte do material diático da Disciplina **Desenvolvimento Full Stack Básico** 
+Este projeto faz parte do MVP de Vagner Morais, da Disciplina **Desenvolvimento Full Stack Básico**
 
-O objetivo aqui é ilutsrar o conteúdo apresentado na terceira aula.
-
+O objetivo deste app é facilitar o gerenciamento de peladas. 
 ---
 ## Como executar
 
